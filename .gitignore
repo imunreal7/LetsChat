@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist
+/build
+/.next
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+
+# Client build files (if any)
+client/build/
+client/.env
+
+# Backend build files (if any)
+backend/dist/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.swp
+*.swo

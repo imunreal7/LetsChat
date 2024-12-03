@@ -48,7 +48,7 @@ const SignUpPage = () => {
               group-hover:bg-primary/20 transition-colors"
                             >
                                 <img
-                                    src="./public/LetsChat.png"
+                                    src="/assets/LetsChat.png"
                                     alt="LetsChat Logo"
                                     className="w-11 h-11"
                                 />{" "}

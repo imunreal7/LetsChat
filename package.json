@@ -1,0 +1,13 @@
+{
+    "name": "letschat",
+    "version": "1.0.0",
+    "description": "LetsChat is a real-time chat application designed to facilitate seamless communication. It leverages modern web technologies to deliver a fast and responsive user experience.",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm install --prefix backend && npm install --prefix client && npm run build --prefix client",
+        "start": "npm run start --prefix backend"
+    },
+    "author": "Aman Dubey",
+    "license": "ISC"
+}
+

@@ -100,10 +100,10 @@ LetsChat is a real-time chat application designed to facilitate seamless communi
 ## Screenshot
 
 Login
-![Login Page](./public/Login.png)
+![Login Page](public/Login.png)
 
 Signup
-![Signup Page](./public/Signup.png)
+![Signup Page](./)
 
 Chats
 ![Chats Page](./public/Chats.png)

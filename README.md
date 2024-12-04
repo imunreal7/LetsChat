@@ -97,6 +97,23 @@ LetsChat is a real-time chat application designed to facilitate seamless communi
 -   `npm run build`: Builds the production-ready frontend.
 -   `npm run preview`: Previews the built project.
 
+## Screenshot
+
+Login
+![Login Page](./public/Login.png)
+
+Signup
+![Signup Page](./public/Signup.png)
+
+Chats
+![Chats Page](./public/Chats.png)
+
+Profile
+![Profile Page](./public/Profile.png)
+
+Settings
+![Settings Page](./public/Settings.png)
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.

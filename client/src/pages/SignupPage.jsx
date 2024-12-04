@@ -1,10 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { useAuthStore } from "../store/useAuthStore.js";
-import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare, User } from "lucide-react";
+import { Eye, EyeOff, Loader2, Lock, Mail, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
-import AuthImagePattern from "../components/AuthImagePattern.jsx";
 
 const SignUpPage = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -36,19 +35,18 @@ const SignUpPage = () => {
     };
 
     return (
-        <div className="min-h-screen grid lg:grid-cols-2">
-            {/* left side */}
+        <div className="h-screen grid lg:grid-cols-1">
             <div className="flex flex-col justify-center items-center p-6 sm:p-12">
                 <div className="w-full max-w-md space-y-8">
                     {/* LOGO */}
-                    <div className="text-center mb-8">
+                    <div className="text-center mb-8 mt-10">
                         <div className="flex flex-col items-center gap-2 group">
                             <div
                                 className="size-12 rounded-xl bg-primary/10 flex items-center justify-center 
               group-hover:bg-primary/20 transition-colors"
                             >
                                 <img
-                                    src="/assets/LetsChat.png"
+                                    src="/public/LetsChat.png"
                                     alt="LetsChat Logo"
                                     className="w-11 h-11"
                                 />{" "}
@@ -60,7 +58,7 @@ const SignUpPage = () => {
                         </div>
                     </div>
 
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form onSubmit={handleSubmit} className="space-y-5">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text font-medium">Full Name</span>
@@ -149,22 +147,13 @@ const SignUpPage = () => {
                     </form>
 
                     <div className="text-center">
-                        <p className="text-base-content/60">
-                            Already have an account?{" "}
-                            <Link to="/login" className="link link-primary">
-                                Sign in
-                            </Link>
-                        </p>
+                        Already have an account?{" "}
+                        <Link to="/login" className="link link-primary">
+                            Sign in
+                        </Link>
                     </div>
                 </div>
             </div>
-
-            {/* right side */}
-
-            <AuthImagePattern
-                title="Join our community"
-                subtitle="Connect with friends, share moments, and stay in touch with your loved ones."
-            />
         </div>
     );
 };

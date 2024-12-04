@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useAuthStore } from "../store/useAuthStore";
-import AuthImagePattern from "../components/AuthImagePattern";
 import { Link } from "react-router-dom";
-import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare } from "lucide-react";
+import { Eye, EyeOff, Loader2, Lock, Mail } from "lucide-react";
 
 const LoginPage = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -18,8 +17,7 @@ const LoginPage = () => {
     };
 
     return (
-        <div className="h-screen grid lg:grid-cols-2">
-            {/* Left Side - Form */}
+        <div className="h-screen grid lg:grid-cols-1">
             <div className="flex flex-col justify-center items-center p-6 sm:p-12">
                 <div className="w-full max-w-md space-y-8">
                     {/* Logo */}
@@ -30,7 +28,7 @@ const LoginPage = () => {
               transition-colors"
                             >
                                 <img
-                                    src="/assets/LetsChat.png"
+                                    src="/public/LetsChat.png"
                                     alt="LetsChat Logo"
                                     className="w-11 h-11"
                                 />
@@ -41,7 +39,7 @@ const LoginPage = () => {
                     </div>
 
                     {/* Form */}
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form onSubmit={handleSubmit} className="space-y-5">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text font-medium">Email</span>
@@ -119,12 +117,6 @@ const LoginPage = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Right Side - Image/Pattern */}
-            <AuthImagePattern
-                title={"Welcome back!"}
-                subtitle={"Sign in to continue your conversations and catch up with your messages."}
-            />
         </div>
     );
 };

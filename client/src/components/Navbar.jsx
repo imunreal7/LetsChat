@@ -18,11 +18,7 @@ const Navbar = () => {
                             className="flex items-center gap-2.5 hover:opacity-80 transition-all"
                         >
                             <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                                <img
-                                    src="./public/LetsChat.png"
-                                    alt="LetsChat Logo"
-                                    className="w-7 h-7"
-                                />{" "}
+                                <img src="/LetsChat.png" alt="LetsChat Logo" className="w-7 h-7" />{" "}
                             </div>
                             <h1 className="text-lg font-bold">LetsChat</h1>
                         </Link>

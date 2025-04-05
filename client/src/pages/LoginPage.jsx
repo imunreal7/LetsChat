@@ -28,7 +28,7 @@ const LoginPage = () => {
               transition-colors"
                             >
                                 <img
-                                    src="/public/LetsChat.png"
+                                    src="/LetsChat.png"
                                     alt="LetsChat Logo"
                                     className="w-11 h-11"
                                 />

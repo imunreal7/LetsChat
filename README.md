@@ -1,6 +1,6 @@
 # LetsChat
 
-LetsChat is a real-time chat application designed to facilitate seamless communication. It leverages modern web technologies to deliver a fast and responsive user experience. [It's live!🚀](https://resonant-creponne-468d86.netlify.app/)
+LetsChat is a real-time chat application designed to facilitate seamless communication. It leverages modern web technologies to deliver a fast and responsive user experience. [It's live!](https://resonant-creponne-468d86.netlify.app/)!🚀
 
 ## Tech Stack
 
